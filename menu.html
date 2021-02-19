@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img.png");
+
+  min-height: 635px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  margin-left: -1%;
+  margin-top: -1%;
+
+ 
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(168, 14, 45);
+    font-size: 40px;
+}
+.topnav a:hover {
+  background-color: rgb(230, 216, 25);
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-img">
+    
+<h2>Welcome to Rinku's awesome Database :)</h2>
+  <div class="container">
+    <div class="topnav">
+      <a href="add.aspx">ADD TO ADMIN</a>
+      <a href="update.aspx"> UPDATE TO ADMIN </a>
+      <a href="delete.aspx">DELETE TO ADMIN</a>
+
+      <a href="addc.aspx">ADD TO CONTENT TABLE </a>
+      <a href="updatec.aspx"> UPDATE TO CONTENT TABLE</a>
+      <a href="deletec.aspx">DELETE TO CONTENT TABLE </a>
+
+      <a href="checkout.aspx">REPORT ON DVD'S C/O</a>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+#lb3Names {
+  width: 290px;
+  height: 500px;
+  margin-left: 7%;
+  padding: 3%;
+}
+#lb4Names {
+  width: 290px;
+  height: 500px;
+  margin-left: 7%;
+  padding: 3%;
+}
+ option {
+    text-align: center;
+ 
+    margin: 1.0em;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    color: rgb(20, 19, 19);
+    background-color: rgb(121, 139, 206);
+    text-decoration: none;
+    
+    border-radius: 20px;
+   }
+   #stores_select  {
+       background-color: rgb(201, 58, 58);
+       padding: 1px;
+   }
+
+#mlist{
+  width: 350px;
+  height: 60px;
+  background-color: rgb(152, 223, 82);
+  font-size: 1.4rem;
+  margin: 1%;
+  border-radius: 20px;
+}
+#glist{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(163, 10, 177);
+  font-size: 1rem;
+  margin-left: 5%;
+  border-radius: 20px;
+  color: rgb(213, 194, 194);
+}
+#items_ordered {
+  background-color: rgb(102, 182, 225);
+  padding: 10px;
+  height: 500px;
+}
+
